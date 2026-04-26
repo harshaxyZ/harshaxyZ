@@ -1,14 +1,3 @@
-<div align="center">
-
-```ts
-// we build — taking ideas from 0 to product
-while (!done) {
-  build();        // ship something real
-  break_it();     // learn what doesn't work  
-  fix_it();       // don't stop until it does
-}
-```
-
 </div>
 
 ---
