@@ -51,7 +51,6 @@ I build products and run **we build** — a small dev studio.
 | [Ledger](https://github.com/harshaxyZ/ledger) | Expense tracker app | TypeScript · React |
 | [Idea Lab](https://github.com/harshaxyZ/idea_lab) | College event registration platform | TypeScript · React |
 | [Quota Guard](https://github.com/harshaxyZ/quota-guard) | API quota monitor for AI models | TypeScript · React |
-| [Bingo](https://github.com/harshaxyZ/Bingo) | Real-time multiplayer game | JavaScript |
 
 ---
 
