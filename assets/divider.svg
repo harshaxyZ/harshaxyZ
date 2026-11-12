@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 60" width="1200" height="60" role="img" aria-label="divider">
+<style>.d{stroke-dasharray:560;stroke-dashoffset:560;animation:d 3s ease-out infinite alternate}@keyframes d{to{stroke-dashoffset:0}}
+.b{animation:b 6s linear infinite;transform-box:fill-box;transform-origin:center}@keyframes b{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}.d{stroke-dashoffset:0}}</style>
+<line class="d" x1="580" y1="30" x2="20" y2="30" stroke="#ff4f9a" stroke-opacity=".5"/>
+<line class="d" x1="620" y1="30" x2="1180" y2="30" stroke="#ff4f9a" stroke-opacity=".5"/>
+<g transform="translate(600,30)"><g class="b"><path d="M0,-6 C4,-6.5 7.5,-2 6,3 C5,6.5 1.5,7.5 0,4.8 C-1.5,7.5 -5,6.5 -6,3 C-7.5,-2 -4,-6.5 0,-6Z" transform="rotate(0) translate(0,-7) scale(.8)" fill="#ffb8d4"/><path d="M0,-6 C4,-6.5 7.5,-2 6,3 C5,6.5 1.5,7.5 0,4.8 C-1.5,7.5 -5,6.5 -6,3 C-7.5,-2 -4,-6.5 0,-6Z" transform="rotate(72) translate(0,-7) scale(.8)" fill="#ffb8d4"/><path d="M0,-6 C4,-6.5 7.5,-2 6,3 C5,6.5 1.5,7.5 0,4.8 C-1.5,7.5 -5,6.5 -6,3 C-7.5,-2 -4,-6.5 0,-6Z" transform="rotate(144) translate(0,-7) scale(.8)" fill="#ffb8d4"/><path d="M0,-6 C4,-6.5 7.5,-2 6,3 C5,6.5 1.5,7.5 0,4.8 C-1.5,7.5 -5,6.5 -6,3 C-7.5,-2 -4,-6.5 0,-6Z" transform="rotate(216) translate(0,-7) scale(.8)" fill="#ffb8d4"/><path d="M0,-6 C4,-6.5 7.5,-2 6,3 C5,6.5 1.5,7.5 0,4.8 C-1.5,7.5 -5,6.5 -6,3 C-7.5,-2 -4,-6.5 0,-6Z" transform="rotate(288) translate(0,-7) scale(.8)" fill="#ffb8d4"/><circle r="2.5" fill="#ff4f9a"/></g></g>
+</svg>
