@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="About Harsha">
+<title>about harsha</title>
+<defs>
+<radialGradient id="petalA" cx="40%" cy="35%" r="75%"><stop offset="0" stop-color="#ffe4ef"/><stop offset=".55" stop-color="#ffb8d4"/><stop offset="1" stop-color="#ff4f9a"/></radialGradient>
+<radialGradient id="petalB" cx="40%" cy="35%" r="75%"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#ffb8d4"/></radialGradient><filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 .9  0 0 0 0 .95  0 0 0 .07 0"/></filter>
+<linearGradient id="vig" x1="0" y1="0" x2="1" y2="0"><stop offset=".55" stop-color="#0a0608" stop-opacity="0"/><stop offset="1" stop-color="#0a0608"/></linearGradient>
+<clipPath id="frame"><rect x="40" y="40" width="440" height="340" rx="6"/></clipPath>
+</defs>
+<style>
+
+.fall{animation-timing-function:linear;animation-iteration-count:infinite}
+.s1{animation-name:fall1}.s2{animation-name:fall2}.s3{animation-name:fall3}
+@keyframes fall1{0%{transform:translate(0,-30px)}50%{transform:translate(-60px,210px)}100%{transform:translate(-20px,450px)}}
+@keyframes fall2{0%{transform:translate(0,-30px)}50%{transform:translate(70px,210px)}100%{transform:translate(140px,450px)}}
+@keyframes fall3{0%{transform:translate(0,-30px)}33%{transform:translate(40px,140px)}66%{transform:translate(-30px,280px)}100%{transform:translate(60px,450px)}}
+.spin{animation-name:spin;animation-timing-function:ease-in-out;animation-iteration-count:infinite;animation-direction:alternate;transform-box:fill-box;transform-origin:center}
+@keyframes spin{0%{transform:rotate(-40deg) scaleX(1)}50%{transform:rotate(80deg) scaleX(.35)}100%{transform:rotate(200deg) scaleX(1)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+.kb{animation:kb 22s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 30%}
+@keyframes kb{from{transform:scale(1)}to{transform:scale(1.14) translate(-10px,6px)}}
+.row{opacity:0;animation:rowIn 1s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes rowIn{from{opacity:0;transform:translateX(-14px)}to{opacity:1;transform:translateX(0)}}
+.pulse{animation:pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pulse{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.8);opacity:.4}}
+.draw{stroke-dasharray:640;stroke-dashoffset:640;animation:draw 2.4s .2s ease-out forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion: reduce){.row{opacity:1}.draw{stroke-dashoffset:0}}
+</style>
+<rect width="1200" height="420" fill="#0a0608"/>
+<text x="120" y="78" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="4" fill="#ff4f9a">NOW SHOWING</text>
+<text x="120" y="122" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif" font-size="40" fill="#f6e9ef">the protagonist</text>
+<line class="draw" x1="120" y1="142" x2="1080" y2="142" stroke="#ff4f9a" stroke-opacity=".6"/>
+<g transform="translate(120,196)"><g transform="translate(0,0)"><g class="row" style="animation-delay:0.40s">
+<circle cx="4" cy="-8" r="4" fill="#ff4f9a" class="pulse" style="animation-delay:0.0s"/>
+<text x="22" y="0" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif" font-style="italic" font-size="26" fill="#f6e9ef">first-year CS</text>
+<text x="22" y="24" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#9b8790">at DBIT, Bengaluru</text></g></g><g transform="translate(0,58)"><g class="row" style="animation-delay:0.75s">
+<circle cx="4" cy="-8" r="4" fill="#ff4f9a" class="pulse" style="animation-delay:0.6s"/>
+<text x="22" y="0" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif" font-style="italic" font-size="26" fill="#f6e9ef">founder</text>
+<text x="22" y="24" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#9b8790">of we build, a small dev studio</text></g></g><g transform="translate(0,116)"><g class="row" style="animation-delay:1.10s">
+<circle cx="4" cy="-8" r="4" fill="#ff4f9a" class="pulse" style="animation-delay:1.2s"/>
+<text x="22" y="0" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif" font-style="italic" font-size="26" fill="#f6e9ef">full-stack</text>
+<text x="22" y="24" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#9b8790">React, Next.js and TypeScript, end to end</text></g></g><g transform="translate(0,174)"><g class="row" style="animation-delay:1.45s">
+<circle cx="4" cy="-8" r="4" fill="#ff4f9a" class="pulse" style="animation-delay:1.8s"/>
+<text x="22" y="0" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif" font-style="italic" font-size="26" fill="#f6e9ef">offense</text>
+<text x="22" y="24" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#9b8790">AI-assisted pentesting and recon</text></g></g></g>
+<g><g transform="translate(874.8,0)"><g class="fall s2" style="animation-duration:18.76s;animation-delay:-18.54s"><g class="spin" style="animation-duration:5.44s;animation-delay:-18.54s"><path d="M0,-6 C4,-6.5 7.5,-2 6,3 C5,6.5 1.5,7.5 0,4.8 C-1.5,7.5 -5,6.5 -6,3 C-7.5,-2 -4,-6.5 0,-6Z" transform="scale(1.03)" fill="url(#petalA)" opacity="0.99"/></g></g></g><g transform="translate(429.3,0)"><g class="fall s3" style="animation-duration:14.74s;animation-delay:-13.01s"><g class="spin" style="animation-duration:6.69s;animation-delay:-13.01s"><path d="M0,-6 C4,-6.5 7.5,-2 6,3 C5,6.5 1.5,7.5 0,4.8 C-1.5,7.5 -5,6.5 -6,3 C-7.5,-2 -4,-6.5 0,-6Z" transform="scale(0.55)" fill="url(#petalA)" opacity="0.90"/></g></g></g><g transform="translate(248.5,0)"><g class="fall s3" style="animation-duration:18.39s;animation-delay:-1.91s"><g class="spin" style="animation-duration:7.00s;animation-delay:-1.91s"><path d="M0,-6 C4,-6.5 7.5,-2 6,3 C5,6.5 1.5,7.5 0,4.8 C-1.5,7.5 -5,6.5 -6,3 C-7.5,-2 -4,-6.5 0,-6Z" transform="scale(0.64)" fill="url(#petalA)" opacity="0.87"/></g></g></g><g transform="translate(643.0,0)"><g class="fall s3" style="animation-duration:18.98s;animation-delay:-10.69s"><g class="spin" style="animation-duration:4.35s;animation-delay:-10.69s"><path d="M0,-6 C4,-6.5 7.5,-2 6,3 C5,6.5 1.5,7.5 0,4.8 C-1.5,7.5 -5,6.5 -6,3 C-7.5,-2 -4,-6.5 0,-6Z" transform="scale(0.77)" fill="url(#petalA)" opacity="0.75"/></g></g></g><g transform="translate(474.1,0)"><g class="fall s3" style="animation-duration:16.71s;animation-delay:-3.87s"><g class="spin" style="animation-duration:7.11s;animation-delay:-3.87s"><path d="M0,-6 C4,-6.5 7.5,-2 6,3 C5,6.5 1.5,7.5 0,4.8 C-1.5,7.5 -5,6.5 -6,3 C-7.5,-2 -4,-6.5 0,-6Z" transform="scale(0.61)" fill="url(#petalB)" opacity="0.86"/></g></g></g><g transform="translate(1052.9,0)"><g class="fall s1" style="animation-duration:14.46s;animation-delay:-13.32s"><g class="spin" style="animation-duration:3.66s;animation-delay:-13.32s"><path d="M0,-6 C4,-6.5 7.5,-2 6,3 C5,6.5 1.5,7.5 0,4.8 C-1.5,7.5 -5,6.5 -6,3 C-7.5,-2 -4,-6.5 0,-6Z" transform="scale(0.57)" fill="url(#petalA)" opacity="0.56"/></g></g></g><g transform="translate(831.4,0)"><g class="fall s3" style="animation-duration:13.38s;animation-delay:-2.84s"><g class="spin" style="animation-duration:6.50s;animation-delay:-2.84s"><path d="M0,-6 C4,-6.5 7.5,-2 6,3 C5,6.5 1.5,7.5 0,4.8 C-1.5,7.5 -5,6.5 -6,3 C-7.5,-2 -4,-6.5 0,-6Z" transform="scale(1.04)" fill="url(#petalB)" opacity="0.60"/></g></g></g><g transform="translate(751.9,0)"><g class="fall s3" style="animation-duration:18.50s;animation-delay:-10.94s"><g class="spin" style="animation-duration:3.64s;animation-delay:-10.94s"><path d="M0,-6 C4,-6.5 7.5,-2 6,3 C5,6.5 1.5,7.5 0,4.8 C-1.5,7.5 -5,6.5 -6,3 C-7.5,-2 -4,-6.5 0,-6Z" transform="scale(0.51)" fill="url(#petalB)" opacity="0.87"/></g></g></g><g transform="translate(1146.1,0)"><g class="fall s3" style="animation-duration:16.71s;animation-delay:-12.99s"><g class="spin" style="animation-duration:6.67s;animation-delay:-12.99s"><path d="M0,-6 C4,-6.5 7.5,-2 6,3 C5,6.5 1.5,7.5 0,4.8 C-1.5,7.5 -5,6.5 -6,3 C-7.5,-2 -4,-6.5 0,-6Z" transform="scale(0.83)" fill="url(#petalA)" opacity="0.60"/></g></g></g><g transform="translate(54.4,0)"><g class="fall s1" style="animation-duration:13.80s;animation-delay:-8.02s"><g class="spin" style="animation-duration:4.12s;animation-delay:-8.02s"><path d="M0,-6 C4,-6.5 7.5,-2 6,3 C5,6.5 1.5,7.5 0,4.8 C-1.5,7.5 -5,6.5 -6,3 C-7.5,-2 -4,-6.5 0,-6Z" transform="scale(0.87)" fill="url(#petalA)" opacity="0.83"/></g></g></g></g>
+<rect width="1200" height="420" filter="url(#grain)"/>
+</svg>
